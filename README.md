@@ -1,51 +1,107 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+## ⚙️ Tech Stack
 
-1. Install dependencies
+- **React Native**: Framework for building cross-platform mobile apps.  
+- **Expo**: Toolchain for streamlined React Native development.  
+- **Stripe**: Secure and flexible payment integration.  
+- **PostgreSQL**: Serverless database management system.  
+- **Google Maps API**: For map rendering and geolocation services.  
+- **Zustand**: Lightweight state management solution.  
+- **Clerk**: Authentication and user management platform.  
+- **TailwindCSS**: Utility-first styling framework.
 
+---
+
+## 🔋 Features
+
+### 🚀 Core Features
+- **Onboarding Flow**  
+   Seamless user registration and setup process for a smooth start.
+
+- **Email Password Authentication with Verification**  
+   Secure login system with email verification for enhanced security.
+
+- **oAuth Integration (Google)**  
+   Quick and effortless login using Google credentials.
+
+- **Authorization**  
+   Role-based secure access control for different user types.
+
+### 🌍 Map and Location Features
+- **Home Screen with Live Location & Google Map**  
+   Real-time location tracking and dynamic map markers.
+
+- **Google Places Autocomplete**  
+   Intuitive search functionality with autocomplete suggestions for any place.
+
+- **Find Rides**  
+   Search for rides by specifying 'From' and 'To' locations.
+
+- **Select Rides from Map**  
+   Choose available cars nearby directly from the map interface.
+
+### 💳 Ride Booking and Payment
+- **Confirm Ride with Detailed Information**  
+   View ride details, including estimated time and fare price.
+
+- **Pay for Ride Using Stripe**  
+   Secure payments via multiple methods, including credit and debit cards.
+
+- **Create Rides After Successful Payment**  
+   Automatically book a ride upon payment confirmation.
+
+### 🛠️ User Management
+- **Profile Management**  
+   Easily update and manage account details from the profile screen.
+
+- **Ride History**  
+   Review and track all previous rides for reference.
+
+### 📱 Platform Responsiveness
+- Fully optimized for both **Android** and **iOS** devices, ensuring a seamless experience across platforms.
+
+---
+
+## ✨ Additional Highlights
+- **Modern Code Architecture**  
+   Designed with scalability and reusability in mind for maintainable codebases.  
+
+- **Real-Time Interactions**  
+   Live updates for ride statuses and location tracking.
+
+- **Responsive UI**  
+   Consistent and visually appealing design with TailwindCSS.  
+
+---
+
+## 🛠️ Installation & Setup
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/your-username/uber-clone.git
+   cd uber-clone
+   ```
+
+2. **Install dependencies**  
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. **Run the app**  
    ```bash
-    npx expo start
+   expo start
    ```
 
-In the output, you'll find options to open the app in a
+4. **Environment Variables**  
+   Configure your `.env` file with the required keys for Stripe, Google Maps, Clerk, and PostgreSQL.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🧑‍💻 Contributing
+Contributions are welcome! If you'd like to add new features or fix issues, feel free to submit a pull request.
 
-## Get a fresh project
+---
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# Uber-clone
+## 📜 License
+This project is licensed under the [MIT License](LICENSE).
